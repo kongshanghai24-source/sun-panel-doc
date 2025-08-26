@@ -1,39 +1,40 @@
 # 部署教程
 
-## 默认账号密码
+##默认账号密码
 账号：**admin@sun.cc**
 
 密码：**12345678**
 
-## 命令参数
+##命令参数
 
-::: info `v1.4.0+` 
+::: 信息 `v1.4.0+` 
 
 |参数|说明|
 |---|---|
 |-h|查看命令说明|
 |-config-reset|生成或重置配置文件（conf/conf.ini）|
 |-config-path|指定程序配置文件的目录 (默认 "./conf")|
-|-password-reset|重置第一个管理账号的密码|
+|-密码重置|重置第一个管理账号的密码|
 
-:::
+输入：:::
 
-::: details `v1.3.0` 及之前版本，请点此查看
+::: 详情 `v1.3.0` 及之前版本，请点此查看
 |参数|说明|
 |---|---|
 |-h|查看命令说明|
-|-config|生成配置文件（conf/conf.ini）|
-|-password-reset|重置第一个管理账号的密码|
-:::
+|-配置|生成配置文件（conf/conf.ini）|
+|-密码重置|重置第一个管理账号的密码|
+输入：:::
 
 ## docker 运行 {#docker_run}
 
-::: tip
+::: 提示
 DockerHub [Sun-Panel项目首页](https://hub.docker.com/r/hslr/sun-panel) 
-:::
+输入：:::
 
-::: info `v1.4.0+` 
-如果您是从`v1.3.0`及之前的版本升级到此版本，[请查看这个说明](https://github.com/hslr-s/sun-panel/discussions/98)
+::: 信息 `v1.4.0+` 
+如果您是从v1.3.0及之前的版本升级到此版本，
+[请查看这个说明](https://github.com/hslr-s/sun-panel/discussions/98)
 
 目录挂载 `-v`，全部可选，根据自己的需求选择：
 |本地目录|容器目录|说明|
